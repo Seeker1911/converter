@@ -7,16 +7,19 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
+
 <fieldset>
-	<input type="number"></input>
+	<input type="number" id="temp"></input>
 	<p>Convert to:</p>
-	<input type="radio">Farenheit</input>
-	<input type="radio">Celsius</input>
-<div id="answer">
-	
+	<input type="radio" id="far" name="radio">Farenheit</input>
+	<input type="radio" id="cel" name="radio">Celsius</input>
+<button type="submit" id="converter">Get the temp.</button>
+<button type="submit" id="clear">clear temp.</button>
+<div>
+	<p id="answer">the answer is...</p>
 </div>
-<button type="submit">Get the temp.</button>
 </fieldset>
+
 
 	<script src="converter.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
